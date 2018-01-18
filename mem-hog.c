@@ -30,7 +30,7 @@ int main(int argc, char *argv[]){
 }
 
 
-  printf("%d*100MB memory allocated..go to sleep for 1000 sec.\n",3);
+  printf("%d*100MB memory allocated..go to sleep for 1000 sec.\n",mem);
 
   sleep(1000);
 
