@@ -12,6 +12,10 @@
 int main(int argc, char *argv[]){
 
   printf("Evil Allocating Memory...\n");
+  if(argc<2){
+    printf("Args not enough\n");
+    return 0;
+  }
 
   printf("Will Allocate Memory: %s*100MB \n",argv[1]);
 
