@@ -7,3 +7,5 @@ ADD mem-hog.c /mem-hog.c
 WORKDIR /
 RUN gcc mem-hog.c -o mem-hog
 RUN cp mem-hog /bin/
+
+CMD ["sh","run.sh"]
